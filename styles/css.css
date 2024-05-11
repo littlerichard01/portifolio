@@ -94,7 +94,7 @@ a {
     padding-bottom: 1%;
 }
 
-.textos{
+.textos {
     font-size: 1.2vw;
 }
 
@@ -158,12 +158,12 @@ a {
     height: 10px;
 }
 
-.likert_t:hover{
+.likert_t:hover {
     transition: color 0.3s;
     color: orange;
 }
 
-#caixa_projetos{
+#caixa_projetos {
     text-align: center;
     background-color: rgb(56, 56, 56);
     border-radius: 3vw;
@@ -175,11 +175,29 @@ a {
     filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
 }
 
-#projetos{
+#projetos {
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 3%;
     padding-bottom: 3%;
     color: white;
     text-align: left;
+}
+
+#randomess {
+    display: inline-block;
+    vertical-align: middle;
+    width: 38vw;
+}
+
+#randomess_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16vw;
+}
+
+#destaque {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 0.5vw;
 }
