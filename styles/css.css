@@ -68,12 +68,12 @@ a {
 }
 
 #caixa_sobre {
-    margin: 1%;
+    margin: 1vw;
     text-align: center;
     background-color: rgb(56, 56, 56);
     border-radius: 3vw;
     width: 22vw;
-    height: 33vw;
+    height: 30.5vw;
     display: inline-block;
     vertical-align: middle;
     -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
@@ -89,7 +89,7 @@ a {
     text-align: left;
 }
 
-#titulos {
+.titulos {
     font-size: 2vw;
     padding-bottom: 1%;
 }
@@ -112,7 +112,7 @@ a {
     background-color: rgb(56, 56, 56);
     border-radius: 3vw;
     width: 40vw;
-    height: 33vw;
+    height: 30.5vw;
     display: inline-block;
     vertical-align: middle;
     -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
@@ -132,10 +132,10 @@ a {
 
 .habilidade {
     text-align: center;
-    font-size: 4vw;
+    font-size: 1.1vw;
     display: inline-block;
-    width: 18%;
-    margin-top: -10%;
+    width: 17%;
+    margin-top: 0%;
     margin-bottom: 3%;
 }
 
@@ -147,6 +147,7 @@ a {
 
 .likert_t {
     letter-spacing: 0.02vw;
+    transition: color 0.3s;
     color: rgb(255, 255, 255);
     height: 10px;
 }
@@ -160,4 +161,25 @@ a {
 .likert_t:hover{
     transition: color 0.3s;
     color: orange;
+}
+
+#caixa_projetos{
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    border-radius: 3vw;
+    width: 63vw;
+    height: 30.5vw;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+}
+
+#projetos{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    text-align: left;
 }
