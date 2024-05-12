@@ -1,0 +1,138 @@
+.medalhas {
+    width: 1.8vw;
+    transition: 0.3s;
+}
+
+.medalhas:hover {
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+abbr {
+    color: transparent;
+}
+
+#nome {
+    color: white;
+    font-size: 2vw;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.icones {
+    border-radius: 100%;
+    width: 15%;
+}
+
+.icones:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#orientacao {
+    text-align: right;
+    margin-right: 8.3vw;
+}
+
+.titulos {
+    font-size: 2vw;
+    padding-bottom: 1%;
+}
+
+.textos {
+    font-size: 1.2vw;
+}
+
+.links {
+    transition: color 0.5s;
+}
+
+.links:hover {
+    transition: color 0.5s;
+    color: orange;
+}
+
+.likert_t {
+    letter-spacing: 0.02vw;
+    transition: color 0.3s;
+    color: rgb(255, 255, 255);
+    height: 10px;
+}
+
+.likert_f {
+    letter-spacing: 0.02vw;
+    color: gray;
+    height: 10px;
+}
+
+.likert_t:hover {
+    transition: color 0.3s;
+    color: orange;
+}
+
+
+.waviy {
+    display: inline-block;
+    font-weight: bold;
+    word-spacing: -20px;
+}
+
+.waviy span {
+    display: inline-block;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+
+}
+
+@keyframes waviy {
+    10% {
+        transform: translateY(0)
+    }
+
+    10% {
+        transform: translateY(-00.2vw)
+    }
+}
+
+.texto_pequeno {
+    font-size: 1.1vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.personagens {
+    width: 100%;
+    transition: 0.3s;
+    display: inline;
+}
+
+.personagens:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.personagens_waviy {
+    display: inline-block;
+
+}
+
+.personagens_waviy span {
+    width: 16.5%;
+    display: inline-block;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+
+}
+
+#cenario {
+    border-radius: 12vw;
+    background-color: rgb(23, 41, 41);
+}

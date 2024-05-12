@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 14.5vw;
+    width: 100%;
+    background-color: rgb(184, 119, 0);
+    border-top: inherit;
+    border-right: inherit;
+    border-left: inherit;
+    border-style: solid;
+    border-bottom-width: 0.2vw;
+    border-color: orange;
+}
+
+.informacoes {
+    display: inline-block;
+    margin-top: 1vw;
+    width: 40.5%;
+    vertical-align: middle;
+}
+
+#caixa_sobre {
+    margin: 1vw;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    border-radius: 3vw;
+    width: 22vw;
+    height: 31vw;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+}
+
+#sobre_mim {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    color: white;
+    text-align: left;
+}
+
+#caixa_habilidades {
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    border-radius: 3vw;
+    width: 40vw;
+    height: 31vw;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+}
+
+#habilidades {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    text-align: right;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+.habilidade {
+    text-align: center;
+    font-size: 1.1vw;
+    display: inline-block;
+    width: 17%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+
+.logo_habilidade {
+    width: 82%;
+    height: 82%;
+    border-radius: 20%;
+}
+
+#caixa_randomess {
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    border-radius: 3vw;
+    width: 63vw;
+    height: 35vw;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    margin-bottom: 1vw;
+}
+
+#randomess_info {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    text-align: left;
+}
+
+#randomess {
+    display: inline-block;
+    vertical-align: middle;
+    width: 34vw;
+}
+
+#randomess_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20.2vw;
+}
+
+#caixa_projetos {
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    border-radius: 3vw;
+    width: 63vw;
+    height: 52vw;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    margin-bottom: 1vw;
+}
+
+.info_generico {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    text-align: center;
+}
+
+.projetos {
+    background-color: rgb(44, 44, 44);
+    border-radius: 2vw;
+    width: 15vw;
+    height: 41vw;
+    box-shadow: inset 5px 3px 1px rgba(0, 0, 0, .5);
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 0.8vw;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+#caixa_hobbies{
+    text-align: left;
+    background-color: rgb(56, 56, 56);
+    border-radius: 3vw;
+    width: 63vw;
+    height: 40vw;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(5px 3px 1px rgba(0, 0, 0, .5));
+    margin-bottom: 1vw;
+}
+
+footer{
+    width: 100%;
+    height: 13.5vw;
+    background-color: rgb(44, 44, 44);;
+    border-right: inherit;
+    border-left: inherit;
+    border-bottom: inherit;
+    border-style: solid;
+    border-top-width: 0.2vw;
+    border-color:rgb(12, 12, 12);
+    text-align: center;
+}
+
+.info_rodape{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 45vw;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}

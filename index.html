@@ -7,7 +7,8 @@
     <title>Portifólio</title>
 
     <style>
-        @import url(styles/css.css);
+        @import url(styles/sessoes.css);
+        @import url(styles/elementos.css);
     </style>
 </head>
 
@@ -91,14 +92,14 @@
                         <a href="https://www.fateczl.edu.br/inicio">
                             <strong class="links">FATEC ZL</strong>,
                         </a> procurando vagas de estágio na área.
-                    </p>
 
+                    </p>
                 </div>
             </section>
 
             <section id="caixa_habilidades">
                 <div id="habilidades">
-                    <h1 class="titulos">Habilidades</h1>
+                    <h1 class="titulos" style="padding-right: 2%;">Habilidades</h1>
 
                     <abbr title="Conhecimento intermediário em HTML5">
                         <div class="habilidade">
@@ -196,6 +197,16 @@
                     <abbr title="Conhecimento intermediário em GameMaker Studio">
                         <div class="habilidade">
 
+                            <img class="logo_habilidade" src="images/habilidades/logo_construct.png"
+                                alt="Logo Construct 3">
+                            <strong class="likert_t">★★★★</strong><strong class="likert_f">★</strong>
+
+                        </div>
+                    </abbr>
+
+                    <abbr title="Conhecimento intermediário em GameMaker Studio">
+                        <div class="habilidade">
+
                             <img class="logo_habilidade" src="images/habilidades/logo_gamemaker.png"
                                 alt="Logo GameMaker Studio">
                             <strong class="likert_t">★★★★</strong><strong class="likert_f">★</strong>
@@ -229,44 +240,241 @@
                             <strong class="likert_t">★★★★</strong><strong class="likert_f">★</strong>
 
                         </div>
-
                 </div>
             </section>
 
-            <section id="caixa_projetos">
-                <div id="projetos">
-                    <h1 class="titulos">Projetos</h1>
+            <section id="caixa_randomess">
+                <div id="randomess_info">
+                    <h1 class="titulos">Randomess</h1>
 
                     <div id="randomess">
                         <p class="textos">
-                            Desenvolvida inicialmente como um projeto de marketing, a 
-                            <span>RandoMess</span> 
-                            é uma
-                            <strong>marca registrada</strong> de jogos.
+                            Desenvolvida inicialmente como um projeto de marketing, a
+
+                            <span class="waviy">
+                                <span style="--i:1; color:rgb(56, 235, 163)">R</span>
+                                <span style="--i:2; color: rgb(56, 235, 163)">a</span>
+                                <span style="--i:3; color: rgb(56, 235, 163)">n</span>
+                                <span style="--i:4; color: rgb(56, 235, 163)">d</span>
+                                <span style="--i:5; color: rgb(56, 235, 163)">o</span>
+                                <span style="--i:6; color: rgb(96, 169, 189)">m</span>
+                                <span style="--i:7; color: rgb(165, 56, 235)">e</span>
+                                <span style="--i:8; color: rgb(165, 56, 235)">s</span>
+                                <span style="--i:9; color: rgb(165, 56, 235)">s</span>
+                                <span style="--i:9; color: rgb(165, 56, 235)">™</span>
+                            </span>
+
+                            é uma marca registrada de jogos de minha propriedade.
                             <br><br>
 
-                            Cada ícone representa um jogo principal dos membros iniciais da 
-                            <span>RandoMess</span>, o meu ícone sendo
-                            o foguete laranja, que representa o segundo jogo desevolvido pela 
-                            <span>RandoMess</span>:
+                            Cada ícone representa um jogo principal dos membros iniciais da Randomess. O meu ícone sendo
+                            o foguete laranja, que representa o segundo jogo desevolvido pela Randomess: Bylunnar e o
+                            ressurgimento de Tryoria.
+                            <br><br>
 
-                            <h1 id="destaque">Bylunnar e o ressurgimento de Tryoria.</h1>
+                            O jogo foi desenvolvido como parte de um trabalho de conclusão de curso, onde seria
+                            representado a inclusão social através deste jogo.
+                            <br><br>
 
+                            Atualmente a Randomess se encontra em um estado de
+                            inatividade, porém você pode acompanhar o processo de criação e alguns outros conteúdos
+                            produzidos atráves do
+
+                            <a href="https://www.instagram.com/randomess.games/">
+                                <strong class="links">Instagram oficial da Randomess.</strong>
+                            </a>
                         </p>
                     </div>
 
                     <div id="randomess_logo">
-                        <img src="images/projetos/logo_randomess.png" alt="Logo RandoMess"
+                        <img src="images/logo_randomess.png" alt="Logo RandoMess"
                             style="border-radius: 10%; width: 100%;">
                     </div>
+                </div>
+            </section>
 
+            <section id="caixa_projetos">
+                <div class="info_generico">
+                    <h1 class="titulos" style="text-align: right; padding-right: 3%;">Projetos</h1>
+
+                    <div class="projetos">
+                        <h1 style="font-size: 1.5vw; text-align: center;">Gato ou Pão 2090</h1>
+                        <br>
+
+                        <p class="texto_pequeno">
+                            GoP 2090 foi um jogo arcade desenvolvido para a Semana Paulo Freire como componente para a
+                            matéria de marketing.
+
+                        </p>
+
+                        <img src="images/projetos/gop_ingame.png" alt="Print da tela em uma partida de Gato ou Pão"
+                            style="width: 100%; margin-bottom: 2%; margin-top: 4%;">
+
+                        <p class="texto_pequeno">
+                            O jogo consiste em uma IA controlada pelo jogador passando por um teste de diferenciação de
+                            imagens, onde esta tem de colidir com os gatos e evitar os pães durante 60 segundos.
+                            <br><br>
+
+                            GoP 2090 foi o primeiro jogo produzido pela Randomess, e você pode
+
+                            <a href="https://randomess.itch.io/gop2090">
+                                <strong class="links">jogar a sua primeira versão no itch.io!</strong>
+                            </a>
+
+                        </p>
+                    </div>
+
+                    <div class="projetos">
+                        <h1 style="font-size: 1.1vw; text-align: center; margin-bottom: -6%;">Bylunnar e
+                            o ressurgimento
+                            <br>de Tryoria
+                        </h1>
+                        <br>
+
+                        <p class="texto_pequeno">
+                            Como mencionado anteriormente, Bylunnar foi a primeira grande produção da Randomess.
+                            Desenvolvido no Gamemaker, o jogo retrata uma história de imperadores espaciais que estão
+                            trazendo novas condições para um planeta subdesenvolvido.
+                        </p>
+
+                        <iframe width="100%" height="20%"
+                            src="https://www.youtube.com/embed/Fr0dWP_d2nQ?si=NEBH2rpAPnKON7b_"
+                            title="Bylunnar Gameplay" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                            style="margin-bottom: 2%; margin-top: 4%;"></iframe>
+
+                        <p class="texto_pequeno">
+                            Você pode ver mais sobre o desenvolvimento deste jogo
+
+                            <a href="video/bylunnar_video_final.mp4" download>
+                                <strong class="links">baixando a apresentação em vídeo</strong>
+                            </a>
+
+                            da matéria de gameart sobre o jogo e a narrativa que o inspirou.
+                        </p>
+
+                    </div>
+
+                    <div class="projetos">
+                        <h1 style="font-size: 1.3vw; text-align: center;">A Oligarquia Pestilenta: RPG
+                        </h1>
+
+                        <p class="texto_pequeno">
+                            AOP diferentemente de meus outros projetos, é um RPG de mesa que se passa em uma distopia
+                            medieval onde a peste negra se tornou um vírus zumbi que transforma animais em aberrações.
+
+                            <img src="images/projetos/oligarquia_personagens.png"
+                                alt="Arte ilustrada dos personagens de uma campanha de AOP"
+                                style="width: 100%; margin-bottom: 2%; margin-top: 4%;">
+
+                            Considerado como um projeto entre amigos, o livro de regras de A Oligarquia Pestilenta ainda
+                            está incompleto e com sua produção parada, entretando sua
+
+                            <a href="docs/oligarquia-pestilenta-rpg-v0.10.1.pdf" download>
+                                <strong class="links">versão mais recente</strong>
+                            </a>
+
+                            já pode ser jogada.
+
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="caixa_hobbies">
+                <div class="info_generico">
+                    <h1 class="titulos" style="text-align: left;">Hobbies</h1>
+                    <p class="textos" style="text-align: left;">
+                        Tenho como hobbies principalmente desenho e RPG de mesa.
+                        Desenho desde 2022, e de 2023 até agora tenho desenvolvido um traço mais original. Você pode ver
+                        algumas de minhas obras no meu
+
+                        <a href="https://www.instagram.com/ricardinhodesenhos/">
+                            <strong class="links">Instagram de desenhos</strong>.
+                        </a>
+                        <br><br>
+
+                        Costumo mestrar sessões de RPG para meus amigos em que eu produzo as artes, documentos e
+                        sistemas para jogar. As artes de personagem abaixo são miniaturas de tabuleiro dos personagens
+                        dos meus amigos da minha campanha de A Oligarquia Pestilenta.
+                    </p>
+                    <br>
+
+                    <div id="cenario">
+                        <span class="personagens_waviy">
+
+                            <span style="--i:1;"><img class="personagens" src="images/hobbies/minibenjamin.png"
+                                    alt="Benjamin"></span>
+
+                            <span style="--i:2;"><img class="personagens" src="images/hobbies/minicullen.png"
+                                    alt="Cullen"></span>
+
+                            <span style="--i:3;"><img class="personagens" src="images/hobbies/minilutero.png"
+                                    alt="Lutero"></span>
+
+                            <span style="--i:4;"><img class="personagens" src="images/hobbies/minisebas.png"
+                                    alt="Sebastecas"></span>
+
+                            <span style="--i:5;"><img class="personagens" src="images/hobbies/minivince.png"
+                                    alt="Byron Vince"></span>
+
+                        </span>
+                    </div>
                 </div>
             </section>
         </center>
     </main>
 
-
     <footer>
+        <div class="info_rodape" style="text-align: left;">
+            <p class="textos">
+                Email: ricardopalmacampos@gmail.com
+                <br>
+
+                GitHub: littlerichard01
+                <br>
+            </p>
+        </div>
+
+        <div class="info_rodape" style="text-align: right; width: 6vw;">
+            <p class="texto_pequeno" style="text-align: left;">
+                <span style="margin-left: -1.6vw;">Site Map:</span>
+            <ul class="texto_pequeno">
+                <li>
+                    Sobre mim
+                </li>
+                <li>
+                    Habilidades
+                </li>
+                <li>
+                    Randomess
+                </li>
+                <li>
+                    Projetos
+                </li>
+                <li>
+                    Hobbies
+                </li>
+
+            </ul>
+            </p>
+        </div>
+        <br>
+
+        <div class="info_rodape" style="width: 30vw; margin-left: -50vw;">
+            <p class="texto_pequeno" style="text-align: left;">
+                <strong>
+                    © 2024 - Ricardo Palma Garcia de Campos
+                </strong>
+            </p>
+        </div>
+
+        <div class="info_rodape" style="width: 12vw; margin-right: -41vw;">
+            <p class="texto_pequeno" style="text-align: right;">
+                https://github.com/littlerichard01/portifolio
+            </p>
+        </div>
 
     </footer>
 
